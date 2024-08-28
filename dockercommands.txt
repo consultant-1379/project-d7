@@ -1,0 +1,18 @@
+run in java folder
+mvn clean install -Dmaven.test.skip
+docker build -t git-mining-rest-server .
+
+run in ui folder
+docker build -t git-miner-ui .
+
+run in script folder
+docker build -t git-mining-script .
+
+run in root folder
+docker-compose up 
+
+
+
+docker run -d --name sonarqube –e \
+SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 \
+sonarqube:8-community

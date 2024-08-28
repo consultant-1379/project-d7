@@ -1,0 +1,16 @@
+{
+  "modules": [
+    {
+      "name": "settings-panel",
+      "version": "1.0.0",
+      "path": "/src/panels",
+      "main": "settings-panel.js"
+    },
+    {
+      "name": "main-app",
+      "version": "1.0.0",
+      "path": "/src/apps/main-app",
+      "main": "main-app.js"
+    }
+  ]
+}

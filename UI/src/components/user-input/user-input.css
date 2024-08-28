@@ -1,0 +1,8 @@
+/* style goes here */
+:host{
+  display: block;
+}
+
+#repo-name {
+  margin-bottom: 0.5%;
+}

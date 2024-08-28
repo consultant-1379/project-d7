@@ -1,0 +1,53 @@
+{
+  "apps": [
+    {
+      "name": "main-app",
+      "module": "main-app",
+      "displayName": "Main",
+      "type": "euisdk",
+      "route": "main-app"
+    }
+  ],
+  "components": [
+    {
+      "name": "system-profile",
+      "module": "profile",
+      "version": "1.0.0"
+    },
+    {
+      "name": "test-component",
+      "module": "test-component",
+      "version": "1.0.0"
+    },
+    {
+      "name": "contribs-component",
+      "module": "contribs-component",
+      "version": "1.0.0"
+    },
+    {
+      "name": "number-commits-component",
+      "module": "number-commits-component",
+      "version": "1.0.0"
+    },
+    {
+      "name": "file-analysis",
+      "module": "file-analysis",
+      "version": "1.0.0"
+    },
+    {
+      "name": "repo-analysis",
+      "module": "repo-analysis",
+      "version": "1.0.0"
+    },
+    {
+      "name": "calendar-component",
+      "module": "calendar-component",
+      "version": "1.0.0"
+    },
+    {
+      "name": "user-input",
+      "module": "user-input",
+      "version": "1.0.0"
+    }
+  ]
+}

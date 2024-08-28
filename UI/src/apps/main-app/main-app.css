@@ -1,0 +1,15 @@
+:host{
+  display: block;
+} 
+
+h1 {
+  padding: 1em;
+}
+
+#datesSelectDIV {
+  display:  none;
+}
+
+#submitDatesButton {
+  margin-top: 0.5%;
+}

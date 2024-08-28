@@ -1,0 +1,38 @@
+version: '3.9'
+services:
+  spring-boot:
+    image: git-mining-rest-server
+    ports:
+      - 9090:9090
+    volumes:
+      - data:/data
+    networks:
+      - git
+
+  mongo-db:
+    image: "mongo"
+    ports:
+      - "27017:27017"
+    networks:
+      - git
+
+  ui:
+    image: git-miner-ui
+    ports:
+      - 3010:3010
+    networks:
+      - git
+
+  script:
+    image: git-mining-script
+    volumes:
+      - data:/data
+    networks:
+      - git
+  
+volumes:
+  data:
+
+networks:
+  git:
+    driver: bridge

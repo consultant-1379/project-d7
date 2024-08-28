@@ -1,0 +1,123 @@
+//	void createContributionItems() throws IOException {
+//		List<List<String>> result = contributionDB.populate();
+//		System.out.println("Data creation started...");
+//		for (int i = 0; i < result.size(); i++) {
+//			String s = result.get(i).toString();
+//			s = s.replaceAll("\\[", "").replaceAll("\\]", "");
+//			String[] vals = s.split(",");
+//			contribution.save(new contributorNode(Integer.toString(i),vals[0],vals[1]));
+//		}
+//
+//
+//		System.out.println("Data creation complete...");
+//	}
+//
+//	public void showAllContibutionsItems() {
+//
+//		contribution.findAll().forEach(item -> System.out.println(getContributionDetails(item)));
+//
+//
+//	}
+//
+//	public String getContributionDetails(contributorNode item) {
+//
+//		System.out.println(
+//				"User name: "+ item.getUserName()+"\n"+" Contribution: "+ item.getContributions()
+//		);
+//
+//		return "";
+//	}
+//
+//	void createFAItems() throws IOException {
+//		List<List<String>> result = fileAnalysisDB.populate();
+//		System.out.println("Data creation started...");
+//		for (int i = 0; i < result.size(); i++) {
+//			String s = result.get(i).toString();
+//			s = s.replaceAll("\\[", "").replaceAll("\\]", "");
+//			String[] vals = s.split(",");
+//			file.save(new filesAnalysisNode(Integer.toString(i),vals[0],vals[1],vals[2],vals[3],vals[4],vals[5],vals[6],vals[7],vals[8]));
+//		}
+//
+//
+//		System.out.println("Data creation complete...");
+//	}
+//
+//	public void showAllFAItems() {
+//		file.findAll().forEach(item -> System.out.println(getFADetails(item)));
+//	}
+//
+//	public String getFADetails(filesAnalysisNode item) {
+//
+//		System.out.println(item);
+//
+//		return "";
+//	}
+//
+//	void createDateItems() throws IOException {
+//		List<List<String>> result = dateDB.populate();
+//		System.out.println("Data creation started...");
+//		for (int i = 0; i < result.size(); i++) {
+//			String s = result.get(i).toString();
+//			s = s.replaceAll("\\[", "").replaceAll("\\]", "");
+//			String[] vals = s.split(",");
+//			date.save(new dateNode(Integer.toString(i),vals[0],vals[1]));
+//		}
+//
+//
+//		System.out.println("Data creation complete...");
+//	}
+//
+//	public void showAllDateItems() {
+//
+//		date.findAll().forEach(item -> System.out.println(getDateDetails(item)));
+//
+//
+//	}
+//
+//	public String getDateDetails(dateNode item) {
+//
+//		System.out.println(
+//				"Commits: "+ item.getCommits()+"\n"+" Dates: "+ item.getDate()
+//		);
+//
+//		return "";
+//	}
+//
+//	void createGAItems() throws IOException {
+//		List<List<String>> result = generalAnalysisDB.populate();
+//		System.out.println("Data creation started...");
+//		for (int i = 0; i < result.size(); i++) {
+//			String s = result.get(i).toString();
+//			s = s.replaceAll("\\[", "").replaceAll("\\]", "");
+//			String[] vals = s.split(",");
+//			general.save(new generalAnalysisNode(Integer.toString(i),vals[0],vals[1],vals[2],vals[3],vals[4]));
+//		}
+//
+//
+//		System.out.println("Data creation complete...");
+//	}
+//
+//	public void showAllGAItems() {
+//		general.findAll().forEach(item -> System.out.println(getGADetails(item)));
+//	}
+//
+//	public String getGADetails(generalAnalysisNode item) {
+//
+//		System.out.println(item);
+//
+//		return "";
+//	}
+
+
+
+//		createContributionItems();
+//		showAllContibutionsItems();
+//
+//		createDateItems();
+//		showAllDateItems();
+//
+//		createFAItems();
+//		showAllFAItems();
+//
+//		createGAItems();
+//		showAllGAItems();
